@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.jarques</groupId>
-	<artifactId>jarques</artifactId>
+	<groupId>com.qconsp</groupId>
+	<artifactId>redis-de-cache-a-nosql</artifactId>
 	<version>0.1</version>
-	<name>jarques</name>
-	<description>Jarques - A Java Redis Queue Implementation</description>
+	<name>redis-de-cache-a-nosql</name>
+	<description>Redis - De cache a NoSQL: QconSP 2014</description>
 
 	<dependencies>
 		<dependency>
@@ -76,5 +76,21 @@
 			<version>1.8</version>
 		</dependency>
 	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 
 </project>
